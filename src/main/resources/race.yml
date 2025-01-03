@@ -1,0 +1,19 @@
+human:
+  name: "человек"
+  description:
+    - "люди"
+
+  evolutionary-tree:
+    villager:
+      to:
+        soldier: 30.0
+        militiaman: 10.0
+    soldier:
+      to:
+        warrior: 10.0
+    militiaman:
+      to:
+        warrior: 10.0
+
+
+

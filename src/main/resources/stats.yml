@@ -1,0 +1,59 @@
+basic-attributes:
+  strength:
+    name: "сила"
+    default: 3
+  durability:
+    name: "прочность"
+    default: 3
+  agility:
+    name: "ловкость"
+    default: 3
+  vitality:
+    name: "жизненная сила"
+    default: 3
+
+
+advanced-attributes:
+  physical-strength:
+    name: "физическая сила"
+    formula: "strength * 2"
+
+  running-speed:
+    name: "скорость бега"
+    formula: "agility * 2"
+
+  max-health:
+    name: "максимальное здоровье"
+    formula: "vitality * 3"
+
+  health-regen:
+    name: "регенерация здоровья"
+    formula: "vitality * 1.5"
+
+  sprinting-reserve:
+    name: "запас силы бега"
+    formula: "agility * 2"
+
+  sprinting-regen:
+    name: "регенерация силы бега"
+    formula: "vitality * 1 + agility * 1"
+
+  sprinting-drain:
+    name: "потеря силы бега"
+    formula: "agility * 0.5"
+
+  physical-resistance:
+    name: "физическая защита"
+    formula: "durability * 2"
+
+  payload:
+    name: "грузоподъемность"
+    formula: "strength * 1.5 + durability * 1.5"
+
+    settings:
+      default-weight: 1.0
+      others:
+        id:
+          weight: 1.0
+          item: "item string data"
+

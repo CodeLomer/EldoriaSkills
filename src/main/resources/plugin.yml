@@ -1,0 +1,5 @@
+name: EldoriaSkills
+version: '1.0-SNAPSHOT'
+main: com.github.codelomer.eldoriaskills.EldoriaSkills
+api-version: '1.20'
+softdepend: [PlaceholderAPI]

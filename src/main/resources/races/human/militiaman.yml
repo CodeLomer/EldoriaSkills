@@ -1,0 +1,8 @@
+race: human
+name: "ополченец"
+
+basics-attributes:
+  strength: +2
+  durability: +2
+  agility: +2
+  vitality: +2
